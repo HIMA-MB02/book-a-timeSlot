@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+hr {
+	border-top: 1px solid var(--gray);
+}
+
+.container,
+.container-fluid {
+	margin-top: 3%;
+}
+
+.button-padding {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.vertically-center {
+	margin: 0 auto;
+}
+
+.strike-through {
+	text-decoration: line-through;
+}
+
+.navbar {
+	z-index: 100;
+	min-width: 100%;
+	position: fixed;
+	top: 0;
+}
+nav p.vertically-center {
+	color: var(--white);
+}
+.body-margins {
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+.footer-text {
+	padding: 20px;
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+}
